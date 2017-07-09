@@ -1,7 +1,8 @@
 // Renders List of Books
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
 
-class BooksList extends Component {
+class BookList extends Component {
   renderList() {
     return this.props.books.map(book => (
       <li key={book.title} className="list-group-item">{book.title} </li>
@@ -17,5 +18,13 @@ class BooksList extends Component {
   }
 }
 
+// THE GLUE BETWEEN REACT and REDUX
+function mapStateToProps(state) {
+  // Whatever is returned will show up as props on (this.props)
+  // inside of BookList
+  return {
+    books: state.books,
+  };
+}
 
-export default BooksList;
+export default connect(mapStateToProps)(BookList);
