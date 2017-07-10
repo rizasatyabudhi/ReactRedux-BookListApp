@@ -38,6 +38,7 @@ function mapStateToProps(state) {
 
 // Anything returned from this function will end up as PROPS
 // on the BookList container
+// for Action
 function mapDispatchToProps(dispatch) {
   // Whenever selectedBooks is called , the result should be passed
   // to all reducers
