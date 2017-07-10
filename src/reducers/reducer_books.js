@@ -5,5 +5,7 @@ export default function () {
         { title: 'The Dark Tower' },
         { title: 'Bilbo and Friends' },
         { title: 'Elliot the Daring Mr Robot' },
+        { title: 'Wutang Clan' },
+
   ];
 }
