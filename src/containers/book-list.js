@@ -43,8 +43,8 @@ function mapDispatchToProps(dispatch) {
   // Whenever selectedBooks is called , the result should be passed
   // to all reducers
 
-                              // selectBook : selectBook
-                              // Will be available as props for bookList (this.props.selectBook)
+ // selectBook : selectBook
+ // Will be available as props for bookList (this.props.selectBook)
   return bindActionCreators({ selectBook }, dispatch);
 }
 

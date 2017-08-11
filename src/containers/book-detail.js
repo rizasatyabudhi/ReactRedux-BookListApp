@@ -18,7 +18,6 @@ class BookDetail extends Component {
   }
 }
 
-
 // Whatever returned here, will be props for bookDetail
 function mapStateToProps(state) {
   return {

@@ -11,3 +11,4 @@
 6. BindActionCreators is used to make sure that the action we created (in object) actually flows to all reducers
 7. Action have 2 values : payload: clarify the condition of the action that being triggered (what is being actioned?)
                           type: describe the purpose of the action
+8. Our application state is formed by a reducer
